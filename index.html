@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My dash board</title>
+</head>
+<body>
+    
+    <header>
+        <h1> My Information dash board</h1>
+    </header>
+     <!--container-->
+    <div class="container">
+        <div class="data-item" data-testid="slackUserName">
+            <h2 id="name"> Name : Aminu Abdulrasheed</h2>
+        </div>
+
+        <!--content box-->
+       <div class="content">
+        <div class="image-side">
+            <div class="data-item" data-testid="slackDisplayImage">
+                <img src="./image/IMG_20230119_132114_606.jpg" alt="Amin Abdulrasheed">
+            </div>
+    
+           </div>
+            <!--3-->
+            <div class="data">
+                <div class="data-item" data-testid="currentDayOfTheWeek">
+                    <h3>Day: Saturday</h3>
+                </div>
+     
+                <!-- time -->
+                <div class="data-item" data-testid="currentUTCTime">
+                    <h4 class="time"></h4>
+                </div>
+                <div class="data-item" data-testid="myTrack">
+                    <h2> Stack: Frontend</h2>
+                </div>
+                <div class="data-item" data-testid="github">
+                    <h2> source code link:<a href=""></a></h2>
+                </div>
+            </div>
+       </div>
+    </div>
+    
+    
+    <!--script-->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
